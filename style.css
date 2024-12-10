@@ -318,7 +318,7 @@ footer .region {
 
 @media screen and (max-width: 1299px) {
     .main {
-        height: 90vh;
+        height: 525px;
     }
 
     .main>nav {
