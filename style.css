@@ -12,6 +12,7 @@ body {
     font-family: 'Martel Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     background-color: black;
+    user-select: none;
 }
 
 .main {
@@ -92,6 +93,7 @@ body {
     border-radius: 3px;
     color: aliceblue;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-transparent {
@@ -109,6 +111,11 @@ body {
     border: 1px solid rgba(255, 0, 0, 0.79);
     padding: 4px 18px;
     font-size: 18px;
+}
+
+.btn-red, .btn-red-sm:hover {
+    background-color: darkred;
+    border: 1px solid rgb(130, 0, 0);
 }
 
 .hero-buttons {
@@ -301,7 +308,7 @@ footer .more-info-grid {
     display: grid;
     max-width: 100%;
     height: auto;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-content: center;
     gap: 5px;
     padding: 20px;
